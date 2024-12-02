@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Antidot</string>
+    <string name="password_too_short">Password harus lebih dari 8 karakter</string>
+    <string name="goToRegister">Belum punya akun? Daftar</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="goToLogin">Sudah punya akun? Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="please_sign">Please sign in to continue our apps</string>
+    <string name="descript_signin">Please sign in to continue our apps</string>
+    <string name="to_sign_up">Don’t have an account? Sign up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="desct_sign_up">Please sign up to continue our apps</string>
+    <string name="full_name">Full Name</string>
+    <string name="birthdate">YYYY/MM/DD (Birthdate)</string>
+    <string name="password_must_have_8_characters">Password must have 8 characters</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="to_sign_in">Already have an account? Sign In</string>
+</resources>
