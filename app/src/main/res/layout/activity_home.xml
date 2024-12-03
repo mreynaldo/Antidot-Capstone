@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:background="@color/white"
-    tools:context=".ui.HomeActivity">
+    tools:context=".ui.MainActivity">
 
     <!-- Header Section -->
     <LinearLayout
@@ -159,6 +159,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="2"
+        android:background="@drawable/edit_text_background"
         android:layout_marginTop="16dp"
         android:padding="8dp">
 

@@ -17,4 +17,9 @@
     <string name="password_must_have_8_characters">Password must have 8 characters</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="to_sign_in">Already have an account? Sign In</string>
+    <string name="diagnosis">Diagnosis Penyakit</string>
+    <string name="isi_diagnosis">Isi Diagnosis</string>
+    <string name="analyze">Analyze</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_fill_diagnosi_form">Please fill Diagnosis Form</string>
 </resources>

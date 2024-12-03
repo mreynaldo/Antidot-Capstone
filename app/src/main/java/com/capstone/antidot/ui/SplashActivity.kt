@@ -11,7 +11,7 @@ class SplashActivity : AppCompatActivity() {
 
         val sessionManager = SessionManager(this)
         val intent = if (sessionManager.isLoggedIn()) {
-            Intent(this, HomeActivity::class.java)
+            Intent(this, MainActivity::class.java)
         } else {
             Intent(this, LoginActivity::class.java)
         }

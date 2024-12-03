@@ -47,7 +47,7 @@ class LoginActivity : AppCompatActivity() {
                             }
                             sessionManager.saveSession(token)
                             Toast.makeText(this@LoginActivity, "Login berhasil", Toast.LENGTH_SHORT).show()
-                            startActivity(Intent(this@LoginActivity, HomeActivity::class.java))
+                            startActivity(Intent(this@LoginActivity, MainActivity::class.java))
                             finish()
                         } else {
                             Toast.makeText(this@LoginActivity, response.message, Toast.LENGTH_SHORT).show()

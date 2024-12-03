@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.capstone.antidot.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class HomeActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var profilePicture: ImageView
     private lateinit var greetingText: TextView
@@ -34,23 +34,23 @@ class HomeActivity : AppCompatActivity() {
         reminderInstruction.text = "Sebelum/Setelah Makan"
 
         // Setup Bottom Navigation
-        val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
-        bottomNavigationView.setOnItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.nav_home -> {
-                    Toast.makeText(this, "Home Selected", Toast.LENGTH_SHORT).show()
-                    true
-                }
-                R.id.nav_diagnosis -> {
-                    Toast.makeText(this, "Diagnosis Selected", Toast.LENGTH_SHORT).show()
-                    true
-                }
-                R.id.nav_history -> {
-                    Toast.makeText(this, "History Selected", Toast.LENGTH_SHORT).show()
-                    true
-                }
-                else -> false
-            }
-        }
+//        val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
+//        bottomNavigationView.setOnItemSelectedListener { item ->
+//            when (item.itemId) {
+//                R.id.nav_home -> {
+//                    Toast.makeText(this, "Home Selected", Toast.LENGTH_SHORT).show()
+//                    true
+//                }
+//                R.id.nav_diagnosis -> {
+//                    Toast.makeText(this, "Diagnosis Selected", Toast.LENGTH_SHORT).show()
+//                    true
+//                }
+//                R.id.nav_history -> {
+//                    Toast.makeText(this, "History Selected", Toast.LENGTH_SHORT).show()
+//                    true
+//                }
+//                else -> false
+//            }
+//        }
     }
 }
