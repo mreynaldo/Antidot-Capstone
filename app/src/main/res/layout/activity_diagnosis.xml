@@ -7,6 +7,27 @@
     android:clipToOutline="true"
     android:background="#F7F7F7">
 
+    <View
+        android:id="@+id/icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="25dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/ic_arrow_back"/>
+
+    <TextView
+        android:id="@+id/diagnosis_title"
+        android:layout_width="142dp"
+        android:layout_height="19dp"
+        android:layout_alignParentEnd="true"
+        android:textSize="16sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/diagnosis"
+        android:textAppearance="@style/title" />
+
     <TextView
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
@@ -17,7 +38,7 @@
         android:textStyle="bold"
         android:layout_marginBottom="8dp"
         android:textColor="#000"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="100dp"/>
 
     <TextView
         android:id="@+id/tv_subtitle"
@@ -28,7 +49,17 @@
         android:textSize="14sp"
         android:textColor="#888"
         android:layout_marginBottom="16dp"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/gejala_1"
+        android:layout_width="116.42dp"
+        android:layout_height="20dp"
+        android:text="@string/gejala_1"
+        android:textAppearance="@style/label"
+        android:textSize="12dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="200dp"/>
 
     <EditText
         android:id="@+id/diagnosis_1"
@@ -42,7 +73,17 @@
         android:background="@drawable/edit_text_background"
         android:padding="16dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginTop="150dp"/>
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:id="@+id/gejala_2"
+        android:layout_width="116.42dp"
+        android:layout_height="20dp"
+        android:text="@string/gejala_2"
+        android:textAppearance="@style/label"
+        android:textSize="12dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="290dp"/>
 
     <EditText
         android:id="@+id/diagnosis_2"
@@ -56,7 +97,17 @@
         android:background="@drawable/edit_text_background"
         android:padding="16dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginTop="230dp"/>
+        android:layout_marginTop="310dp"/>
+
+    <TextView
+        android:id="@+id/gejala_3"
+        android:layout_width="116.42dp"
+        android:layout_height="20dp"
+        android:text="@string/gejala_3"
+        android:textAppearance="@style/label"
+        android:textSize="12dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="380dp"/>
 
     <EditText
         android:id="@+id/diagnosis_3"
@@ -70,7 +121,17 @@
         android:background="@drawable/edit_text_background"
         android:padding="16dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginTop="310dp"/>
+        android:layout_marginTop="400dp"/>
+
+    <TextView
+        android:id="@+id/gejala_4"
+        android:layout_width="116.42dp"
+        android:layout_height="20dp"
+        android:text="@string/gejala_4"
+        android:textSize="12dp"
+        android:textAppearance="@style/label"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="470dp"/>
 
     <EditText
         android:id="@+id/diagnosis_4"
@@ -84,7 +145,7 @@
         android:background="@drawable/edit_text_background"
         android:padding="16dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginTop="390dp"/>
+        android:layout_marginTop="490dp"/>
 
     <Button
         android:id="@+id/btn_analyze"
@@ -95,7 +156,7 @@
         android:textSize="16sp"
         android:background="@drawable/primary_color"
         android:layout_marginBottom="16dp"
-        android:layout_marginTop="470dp"/>
+        android:layout_marginTop="560dp"/>
 
     <Button
         android:id="@+id/btn_cancel"
@@ -107,5 +168,5 @@
         android:textColor="@color/black"
         android:background="@drawable/second_button"
         android:layout_marginBottom="16dp"
-        android:layout_marginTop="540dp"/>
+        android:layout_marginTop="630dp"/>
 </RelativeLayout>

@@ -22,4 +22,16 @@
     <string name="analyze">Analyze</string>
     <string name="cancel">Cancel</string>
     <string name="please_fill_diagnosi_form">Please fill Diagnosis Form</string>
+    <string name="gejala_1">Gejala 1</string>
+    <string name="gejala_2">Gejala 2</string>
+    <string name="gejala_3">Gejala 3</string>
+    <string name="gejala_4">Gejala 4</string>
+    <string name="result_diagnosis">Result Diagnosis</string>
+    <string name="penyakit">Penyakit</string>
+    <string name="this_is_your_result_diagnosis">This is your result diagnosis</string>
+    <string name="text_holder">Text Holder</string>
+    <string name="buat_reminder">Buat Reminder</string>
+    <string name="rekomendasi_obat">Rekomendasi Obat</string>
+    <string name="dosis">Dosis</string>
+    <string name="deskripsi">Deskripsi</string>
 </resources>
